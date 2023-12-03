@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blog de Notas Multimedia</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Logo del sitio">
+        </div>
+        <h1>Lista de Tareas Multimedia</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            
+            
+            <form id="noteForm">
+                <label for="noteInput">Nueva Tarea:</label>
+                <textarea id="noteInput" required></textarea>
+
+                <label for="mediaInput">Enlace a Multimedia:</label>
+                <input type="text" id="mediaInput">
+
+                <button type="submit">Agregar</button>
+            </form>
+
+            <ul id="noteList"></ul>
+        </div>
+    </div>
+    <div class="footer">
+        Nombre del curso: Conceptualización de servicios en la nube<br>
+        Nombre: Alexis Uriel Martinez Salazar<br>
+        Código: 221393045<br>
+        Correo de contacto: alexiaums98qgmail.com
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
